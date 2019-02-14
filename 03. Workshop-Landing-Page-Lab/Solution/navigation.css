@@ -1,0 +1,46 @@
+.navigation{
+    padding: 0 20px;
+}
+
+.navigation p{
+    display: inline-block;
+    font-size: 22px;
+    width: 600px;
+}
+
+.navigation p span{
+    color: #50B9E1;
+}
+
+nav{
+    display: inline-block;
+}
+
+li{
+    display: inline-block;
+    padding-right: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: #50B9E1;
+    cursor: pointer;
+}
+
+nav i{
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+body > header > section.navigation > nav > ul > li:nth-child(5){
+padding-right: 5px;
+}
+
+ul{
+    padding: 0;
+}

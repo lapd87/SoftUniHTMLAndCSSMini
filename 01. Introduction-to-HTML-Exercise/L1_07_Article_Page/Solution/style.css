@@ -1,0 +1,45 @@
+body {
+    background: rgb(238, 238, 238);
+    padding: 0 10% 0 10%;
+}
+
+img {
+    background: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.25);
+    border: 1px solid black;
+    padding: 5px;
+    margin: 10px;
+}
+
+.left {
+    width: 60%;
+    display: inline-block;
+}
+
+body > main > aside {
+    width: 15%;
+    display: inline-block;
+    padding: 0 10% 0 5%;
+    vertical-align: top;
+}
+
+nav li a {
+    color: limegreen;
+}
+
+.col {
+    float: left;
+    width: 48%;
+    display: flex;
+}
+
+div div:nth-child(1) {
+    padding-right: 10px;
+    border-right: 2px solid lightgrey;
+}
+
+div div:nth-child(2) {
+    padding-left: 10px;
+    font-style: italic;
+    border-left: gray 1px;
+}

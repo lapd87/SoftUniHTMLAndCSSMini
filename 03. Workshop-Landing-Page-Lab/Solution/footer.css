@@ -1,0 +1,30 @@
+footer{
+    background: #43bae3;
+}
+
+footer p {
+    display: inline-block;
+    width: 400px;
+    text-align: right;
+    color: #5a7c8a;
+}
+
+footer ul {
+    display: inline-block;
+    width: 800px;
+    text-align: right;
+}
+
+footer ul li a {
+    color: #5a7c8a;
+}
+
+footer ul li a:hover {
+    color: black;
+}
+
+footer > ul li a i {
+    border: 1px solid #5a7c8a;
+    border-radius: 50%;
+    padding: 5px;
+}

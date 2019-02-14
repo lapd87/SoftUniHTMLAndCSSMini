@@ -1,0 +1,22 @@
+nav{
+    background-color: darkblue;
+}
+
+nav li{
+    display: inline-block;
+    margin: 10px;
+}
+
+nav li a{
+    text-decoration: none;
+    font-family: Calibri, sans-serif;
+    color: white;
+}
+
+nav ul,body{
+    margin: 0;
+}
+
+nav ul{
+    text-align: center;
+}
